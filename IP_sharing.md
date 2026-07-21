@@ -2,7 +2,7 @@ Step 1: Assign a Static IP to the Host PCTo prevent your IP address from changin
 set a fixed local IP address.Press Win + R, type ncpa.cpl, and hit Enter.Right-click your active Wi-Fi adapter and
 click Properties.Double-click Internet Protocol Version 4 (TCP/IPv4).Select "Use the following IP address" and
 fill in your current Wi-Fi details (e.g., if your current IP is 192.168.150.14):
-IP address: 192.168.150.14Subnet mask: 255.255.255.0Default gateway: 192.168.150.1 (your router's IP)
+IP address: 192.168.150.14Subnet mask: 255.255.255.0 Default gateway: 192.168.150.1 (your router's IP)
 Preferred DNS server: 8.8.8.8Click OK to save.Step 2: Configure WordPress (wp-config.php)
 Tell WordPress to dynamically serve pages using your Host IP address so images, CSS, and
 internal links don't break on the second laptop.Go to your
